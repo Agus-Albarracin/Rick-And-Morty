@@ -1,0 +1,5 @@
+.div__deCards{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}

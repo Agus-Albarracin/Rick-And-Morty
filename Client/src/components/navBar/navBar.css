@@ -1,0 +1,71 @@
+.divNav{
+ 
+    display: flex;
+   /* justify-content:space-around; */
+
+
+}
+.divCont{
+    display: flex;
+}
+.buttonHome{
+    margin-top: 40px;
+    margin-left: 38px;
+    margin-right: 40px;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 1.5em;
+    color:aliceblue;
+    border: 2px solid rgb(23, 253, 2);
+    border-color:rgb(23, 253, 2) ;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 50px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+
+}
+
+.buttonAbout{
+    margin-top: 40px;
+    margin-right: 40px;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 1.5em;
+    color:aliceblue;
+    border: 2px solid rgb(23, 253, 2);
+    border-color:rgb(23, 253, 2) ;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 50px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.buttonFav{
+    margin-top: 40px;
+    margin-right: 150px;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 1.5em;
+    color:aliceblue;
+    border: 2px solid rgb(23, 253, 2);
+    border-color:rgb(23, 253, 2) ;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 50px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.buttonExit{
+    margin-top: 40px;
+    margin-left: 350px;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 1.5em;
+    color:aliceblue;
+    border: 2px solid rgb(23, 253, 2);
+    border-color:rgb(23, 253, 2) ;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 50px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}

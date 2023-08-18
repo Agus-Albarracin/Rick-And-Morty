@@ -1,0 +1,60 @@
+.labelCont{
+    font-family: 'Jolly Lodger', cursive;
+    color: white;
+    font-size: 40px;
+}
+
+.loginCont{
+    margin-top: 0px;
+    margin-right: 100px;
+}
+
+.imgLog{
+    
+    margin-left: 130px;
+    width: 400px;
+    height: 200px;
+}
+
+
+.buttonIngresar{
+    margin-left: 240px;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 1.5em;
+    color:aliceblue;
+    border: 2px solid rgb(23, 253, 2);
+    border-color:rgb(23, 253, 2) ;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.inputLog{
+    margin-left: 2px auto;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 1.5em;
+    color: white;
+    border: 2px solid rgb(23, 253, 2);
+    border-color:rgb(23, 253, 2) ;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 170px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.inputLog .name
+.inputLog::placeholder {
+    color:rgba(9, 255, 0, 0.452);
+   }
+
+.theErrors{
+    margin-left: 100px;
+    font-family: 'Jolly Lodger', cursive;
+     background-color: rgba(0, 0, 0, 0.74);
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    letter-spacing: 7px;
+    justify-content: center;
+}

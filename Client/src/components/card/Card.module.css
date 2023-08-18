@@ -1,0 +1,189 @@
+.boxesContainer {
+display: grid;
+place-items: center;
+margin-top: 30px;
+border: 2px solid rgb(253, 253, 253);
+border-radius: 10px;
+background-color: rgba(0, 0, 0, 0.616);
+width: 300px;
+height: 300px;
+/* padding: 110px, 0px, 80px, 1000px; */
+/* arriba, derecha, abajo, izquierda */
+box-shadow: 0 0 10px rgb(81, 253, 1);
+margin-top: 78px;
+margin-left: 78px;
+
+}
+
+ .boxesContainer:hover{
+    border: 5px solid rgb(255, 255, 255);
+}
+.boxesContainer:hover
+{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+} 
+
+
+.cardBox {
+    float: left;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    height: 100%;
+  }
+
+.cardBox:hover .card {
+    transform: rotateY(180deg);
+  }
+
+  .card {
+    background: #22222200;
+    cursor: default;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+    height: 100%;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+  }
+
+  .front, .back {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0);
+    display: block;
+    font-size: 1.2em;
+    height: 100%;
+    padding: 0.2em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+
+  .back {
+    transform: rotateY( 180deg);
+  }
+
+  @keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+  
+  @-webkit-keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+  @media screen and (max-width: 767px) {
+  
+    .cardBox {
+      margin-left: 2.8%;
+      margin-top: 3%;
+      width: 46%;
+    }
+  
+    .card {
+      height: 285px;
+    }
+  
+    .cardBox:last-child {
+      margin-bottom: 3%;
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+  
+    .cardBox {
+      width: 94.5%;
+      height: 290px;
+    }
+  
+  }
+
+/* imagenes del div */
+.img{
+    display: grid;
+place-items: center;
+}
+.fotitos{
+    border-radius: 2%;
+    width: auto;
+    height: auto;   
+}
+
+
+
+
+/* Boton fav */
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9em;
+}
+.likes{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.dislikes{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+/* Boton Exit */
+
+
+.buttonX{
+display: flex;
+height: 40px;
+width: 40px;
+margin-top: 10px;
+    
+}
+
+/* nombres de la data de los personajes */
+.divDataCont{
+    
+    font-family: 'Jolly Lodger', cursive;
+    color: white;
+    letter-spacing: 0.15em;
+}
+
+/* nombre del personaje de la carta */
+.divDataNameCont{
+font-family: 'Nosifer', cursive;
+-webkit-text-stroke: 0.4px rgb(23, 253, 2);
+color:#1169bb;
+font-size: small;
+display: grid;
+margin-top: 14px;
+text-align: center;
+
+}
+
+/* nombre de la data de los personajes */
+.divDatasCont{
+    font-family: 'Jolly Lodger', cursive;
+    color: white;
+}
+
+
+

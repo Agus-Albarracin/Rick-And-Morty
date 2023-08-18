@@ -1,0 +1,33 @@
+.div__cont__about{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    margin-right: 550px;
+}
+
+.div__texts{
+    font-family: 'Jolly Lodger', cursive;
+    color: white;
+    width: 1000px;
+
+}
+.div__saludo{
+    margin-top: 60px;
+    font-family: 'Jolly Lodger', cursive;
+    color: white;
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.div__datas{
+    margin-top: 60px;
+    font-family: 'Jolly Lodger', cursive;
+    color: white;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.imgAbout{
+    display:block;
+    width: 300px;
+    height: 300px;
+}
