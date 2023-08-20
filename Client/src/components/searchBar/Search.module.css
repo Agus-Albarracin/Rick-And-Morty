@@ -1,6 +1,7 @@
 .container{
   display: flex;
  margin-top: 40px;
+ justify-content: center; 
 }
 
 .inputCont{
@@ -31,4 +32,68 @@
     width: 100px;
     padding: 10px;
     box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+
+
+@media (max-width:1200px){
+    .container{
+        display: flex;
+      justify-content: center; 
+      }
+      
+    .inputCont{       
+        position: relative;
+        font-family: 'Jolly Lodger', cursive;
+        font-size: 1.5em;
+        color: white;
+        border: 2px solid rgb(23, 253, 2);
+        border-color:rgb(23, 253, 2) ;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0);
+        width: 20vh(max-content, auto);
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+    }
+}
+
+
+@media (max-width:600px){
+    .container{
+        display: flex;
+      justify-content: center; 
+      }
+      
+    .inputCont{       
+        position: relative;
+        font-family: 'Jolly Lodger', cursive;
+        font-size: 1.5em;
+        color: white;
+        border: 2px solid rgb(23, 253, 2);
+        border-color:rgb(23, 253, 2) ;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0);
+        width: 20vh(max-content, auto);
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+    }
+}
+
+@media (max-width:220px){
+    .container{
+        display: flex;
+      justify-content: center;
+      margin-left: 20%;
+      }
+      
+    .inputCont{       
+        position: relative;
+        font-family: 'Jolly Lodger', cursive;
+        font-size: 1.5em;
+        color: white;
+        border: 2px solid rgb(23, 253, 2);
+        border-color:rgb(23, 253, 2) ;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0);
+        width: 20vh(max-content, auto);
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+    }
 }

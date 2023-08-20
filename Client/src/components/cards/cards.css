@@ -1,5 +1,8 @@
 .div__deCards{
     display: grid;
     place-items: center;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(
+        auto-fit,
+         minmax(150 px, 1fr));
+    gap: 16px;
 }

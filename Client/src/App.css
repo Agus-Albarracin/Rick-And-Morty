@@ -16,3 +16,30 @@
    place-items: center;
    margin-right: 120px;
 }
+
+@media (max-width:1000px){
+   .App {
+      display: grid;
+      place-items: center;
+      grid-template-columns: repeat(
+          auto-fit,
+           minmax(150 px, 1fr));
+      gap: 16px;
+      
+       
+   }
+   
+
+}
+
+
+@media (max-width:600px){
+
+
+}
+
+
+@media (max-width:600px){
+
+
+}

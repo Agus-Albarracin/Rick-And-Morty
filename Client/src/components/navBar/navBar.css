@@ -4,9 +4,11 @@
    /* justify-content:space-around; */
 
 
+
 }
 .divCont{
-    display: flex;
+    display: grid;
+
 }
 .buttonHome{
     margin-top: 40px;
@@ -68,4 +70,100 @@
     width: 100px;
     height: 50px;
     box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+@media (max-width:1300px){
+    .divNav{
+        display: grid;  
+        grid-template-columns: repeat(
+            auto-fit,
+             minmax(150 px, 1fr));
+        
+   }
+    
+    
+    .divCont{
+        display: grid;
+    
+    }
+
+
+    .buttonHome{
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family: 'Jolly Lodger', cursive;
+        font-size: 1.5em;
+        color:aliceblue;
+        border: 2px solid rgb(23, 253, 2);
+        border-color:rgb(23, 253, 2) 50;
+        background-color: rgb(0, 0, 0);
+        width: 50vh;
+        height: 50px;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+    
+    }
+    
+    .buttonAbout{
+        margin-top: 40px;
+        margin-right: 10px;
+        font-family: 'Jolly Lodger', cursive;
+        font-size: 1.5em;
+        color:aliceblue;
+        border: 2px solid rgb(23, 253, 2);
+        border-color:rgb(23, 253, 2) ;
+        border-radius: 10px;
+        background-color: rgb(0, 0, 0);
+        width: 50vh;
+        height: 50px;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+    }
+    
+    .buttonFav{
+        margin-top: 40px;
+        margin-right: 10px;
+        font-family: 'Jolly Lodger', cursive;
+        font-size: 1.5em;
+        color:aliceblue;
+        border: 2px solid rgb(23, 253, 2);
+        border-color:rgb(23, 253, 2) ;
+        border-radius: 10px;
+        background-color: rgb(0, 0, 0);
+        width: 50vh;
+        height: 50px;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+    }
+    
+    .buttonExit{
+        margin-top: 40px;
+        margin-left: 10px;
+        font-family: 'Jolly Lodger', cursive;
+        font-size: 1.5em;
+        color:aliceblue;
+        border: 2px solid rgb(23, 253, 2);
+        border-color:rgb(23, 253, 2) ;
+        border-radius: 10px;
+        background-color: rgb(0, 0, 0);
+        width: 50vh;
+        height: 50px;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+    }
+
+}
+
+
+@media (max-width:600px){
+
+
+}
+
+
+@media (max-width:600px){
+
+
+}
+
+
+@media (max-width:600px){
+
+
 }
