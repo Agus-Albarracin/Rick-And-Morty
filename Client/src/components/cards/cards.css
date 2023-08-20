@@ -1,8 +1,25 @@
 .div__deCards{
     display: grid;
     place-items: center;
-    grid-template-columns: repeat(
-        auto-fit,
-         minmax(150 px, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
 }
+
+@media (max-width:1300px){
+
+.div__deCards{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+}
+
+@media (max-width:900px){
+
+    .div__deCards{
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    }
